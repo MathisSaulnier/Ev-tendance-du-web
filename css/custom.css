@@ -1,0 +1,51 @@
+/*-- Question 2 --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap');
+
+/* Question 3 */
+
+html {
+    /*-- 1rem=10px --*/
+    font-size: 62,5%;
+}
+
+/* Question 4 */
+
+body {
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Question 5*/
+
+header {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*Question 6*/
+
+header nav a {
+    color: white;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.3);
+    text-decoration: none;
+}
+header nav a:hover {
+    color: #FE7B4F;
+}
+header nav a:first-child {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*Question 7*/
+
+body h2 {
+    letter-spacing: 0.5em;
+}
+
+/*Question 8*/
+
+body figcaption {
+    font-style: italic;
+    text-align: center;
+}
