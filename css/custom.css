@@ -49,3 +49,74 @@ body figcaption {
     font-style: italic;
     text-align: center;
 }
+
+/*Question 9*/
+
+body img {
+    box-shadow: 0px 1rem 1rem -1rem rgba(0,0,0,0.2);
+}
+
+/*Question 10*/
+
+#home {
+    background-image: url("../img/abstract.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #2D3FBD;
+}
+
+/*Question 11*/
+
+#home div {
+    color: white;
+}
+#home div h1 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20vmin;
+    line-height: 1em;
+    mix-blend-mode: overlay;
+    font-weight: bold;
+}
+#home div p {
+    font-size: 2rem;
+}
+
+/*Question 12*/
+
+#skeuomorphism {
+    background-image: url("../img/woodfloor.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/*Question 13*/
+
+#flatdesign {
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(224,224,224,1) 100%);
+    box-shadow: none;
+}
+
+/*Question 14*/
+
+#materialdesign {
+    background-color: #F44133;
+}
+#materialdesign h2 {
+    color: #F44133;
+}
+
+/*Question 15*/
+
+#neumorphism {
+    background-color: #EBECF0;
+}
+#neumorphism .content {
+    color: ;
+}
